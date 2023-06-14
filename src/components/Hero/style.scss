@@ -1,0 +1,89 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-box1{
+    h2{
+        font-family: Nunito;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 92px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: black;
+        max-width: 548px;
+        width: 100%;
+        margin-top: 80px;
+    }
+    p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(74, 74, 74, 1);
+        margin-top: 24px;
+    }
+    button{
+        margin-top: 40px;
+        padding: 16px 42px;
+    }
+    &-shows{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 80px;
+
+        h3{
+            font-family: Nunito;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 49px;  
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(0, 27, 4, 1);
+
+        }
+        p{
+            text-align: center;
+            margin-top: 10px;
+            font-family: DM Sans;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0em;
+        }
+    }
+}
+.hero-box2{
+    margin-top: 30px;
+    width: 50%;
+    position: relative;
+   img{
+    margin-left: 150px;
+   }
+   &-img {
+       position: absolute;
+       top: 400px;
+       left: -250px;
+   }
+
+   &-img2 {
+       position: absolute;
+       top: 170px;
+       left: -40px;
+   }
+
+   &-img3 {
+       position: absolute;
+       top: 80px;
+       right: -110px;
+   }
+
+   &-img4 {
+       position: absolute;
+       top: 80%;
+       right: -50px;
+   }
+}

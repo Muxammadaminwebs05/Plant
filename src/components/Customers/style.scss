@@ -1,0 +1,68 @@
+.customers{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    &-box1{
+        h2{
+            font-family: Nunito;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(26, 26, 26, 1);
+
+
+        }
+                    p {
+                        font-family: DM Sans;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        max-width: 502px;
+                        width: 100%;
+
+                    }
+&-slide{
+    position: absolute;
+    max-width: 720px;
+    width: 100%;
+    background-color: green;
+    padding: 20px 32px;
+    color: white;
+    margin-top: 24px;
+    &-user{
+        display: flex;
+        justify-content: space-between;
+        &-box1{
+            display: flex;
+            gap: 10px;
+            img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+    p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        max-width: 502px;
+        width: 100%;
+    }
+}
+        
+    }
+    &-box2{
+        max-width: 602px;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}

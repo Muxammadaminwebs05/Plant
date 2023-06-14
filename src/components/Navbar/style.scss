@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    &-left{
+        h1{
+            font-family: Nunito;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 33px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+    }
+    &-center{
+        display: flex;
+        align-items: center;
+        max-width: 500px;
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    &-right{
+        display: flex;
+        align-items: center;
+        gap: 48px;
+    }
+}

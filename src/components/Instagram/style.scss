@@ -1,0 +1,53 @@
+.instagram{
+    h2{
+        font-family: Nunito;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(26, 26, 26, 1);
+    }
+    p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(74, 74, 74, 1);
+        max-width: 544px;
+        width: 100%;
+        margin: auto;
+
+    }
+    &-boxes{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        &-box{
+            position: relative;
+
+            &-small{
+                position: absolute;
+            background: rgba(0, 0, 0, 0.34);
+                width: 231px;
+                height: 241px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                top: 0;
+                visibility: hidden;
+
+               
+            }
+          
+        }
+    }
+}
+// .instagram-boxes-box:hover{
+//     &-small{
+//         display: flex;
+//         background-color: red;
+//     }
+// }

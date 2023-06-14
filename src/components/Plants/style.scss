@@ -1,0 +1,40 @@
+.plants-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+.plants1 {
+
+    h2 {
+        font-family: Nunito;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(26, 26, 26, 1);
+    }
+
+    a {
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(74, 74, 74, 1);
+        display: block;
+        margin-top: 37px;
+    }
+}
+
+.plants2 {
+    width: 57%;
+    justify-content: space-between;
+    display: flex;
+
+    .plant-box {
+        padding: 22px 28px;
+        background: rgba(246, 237, 232, 1);
+    }
+}
+}
