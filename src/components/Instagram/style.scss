@@ -1,5 +1,5 @@
-.instagram{
-    h2{
+.instagram {
+    h2 {
         font-family: Nunito;
         font-size: 48px;
         font-weight: 700;
@@ -8,7 +8,8 @@
         text-align: center;
         color: rgba(26, 26, 26, 1);
     }
-    p{
+
+    p {
         font-family: DM Sans;
         font-size: 16px;
         font-weight: 400;
@@ -21,33 +22,32 @@
         margin: auto;
 
     }
-    &-boxes{
+
+    &-boxes {
         display: flex;
         justify-content: center;
         margin-top: 40px;
-        &-box{
+
+        &-box {
             position: relative;
 
-            &-small{
+            
+            &-small {
                 position: absolute;
-            background: rgba(0, 0, 0, 0.34);
                 width: 231px;
                 height: 241px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 top: 0;
-                visibility: hidden;
+                &:hover{
+                    background: rgba(0, 0, 0, 0.34);
+                    
+                }
 
-               
             }
-          
+         
+            
         }
     }
 }
-// .instagram-boxes-box:hover{
-//     &-small{
-//         display: flex;
-//         background-color: red;
-//     }
-// }
