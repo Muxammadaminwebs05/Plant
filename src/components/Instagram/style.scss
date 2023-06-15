@@ -32,19 +32,19 @@
             position: relative;
 
             
-            &-small {
+            &-small  {
                 position: absolute;
                 width: 231px;
                 height: 241px;
-                display: flex;
+                display: none;
                 justify-content: center;
+                background: rgba(0, 0, 0, 0.34);
                 align-items: center;
                 top: 0;
-                &:hover{
-                    background: rgba(0, 0, 0, 0.34);
-                    
-                }
 
+            }
+            &:hover .instagram-boxes-box-small {
+                    display: flex;                
             }
          
             

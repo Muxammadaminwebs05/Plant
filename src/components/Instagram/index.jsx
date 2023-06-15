@@ -16,23 +16,33 @@ const index = () => {
             <div className="instagram-boxes">
               <div className="instagram-boxes-box">
                 <img src={instagram} alt="instagram" />
-                <div className="instagram-boxes-box-small"></div>
-              </div>
+                <div className="instagram-boxes-box-small">
+                  <img src={ins} alt="" />
+                </div>
+              </div>{" "}
               <div className="instagram-boxes-box">
                 <img src={instagram} alt="instagram" />
-                <div className="instagram-boxes-box-small"></div>
-              </div>
+                <div className="instagram-boxes-box-small">
+                  <img src={ins} alt="" />
+                </div>
+              </div>{" "}
               <div className="instagram-boxes-box">
                 <img src={instagram} alt="instagram" />
-                <div className="instagram-boxes-box-small"></div>
-              </div>
+                <div className="instagram-boxes-box-small">
+                  <img src={ins} alt="" />
+                </div>
+              </div>{" "}
               <div className="instagram-boxes-box">
                 <img src={instagram} alt="instagram" />
-                <div className="instagram-boxes-box-small"></div>
-              </div>
+                <div className="instagram-boxes-box-small">
+                  <img src={ins} alt="" />
+                </div>
+              </div>{" "}
               <div className="instagram-boxes-box">
                 <img src={instagram} alt="instagram" />
-                <div className="instagram-boxes-box-small"></div>
+                <div className="instagram-boxes-box-small">
+                  <img src={ins} alt="" />
+                </div>
               </div>
             </div>
           </div>
