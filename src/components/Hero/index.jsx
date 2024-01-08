@@ -6,7 +6,7 @@ import heroimg2 from "../../assets/images/hero2.png";
 import heroimg3 from "../../assets/images/hero3.png";
 import heroimg4 from "../../assets/images/hero4.png";
 import heroimg5 from "../../assets/images/hero5.png";
-  
+   
 const index = () => {
     return ( 
       <>
