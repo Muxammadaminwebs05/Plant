@@ -8,7 +8,7 @@ import heroimg4 from "../../assets/images/hero4.png";
 import heroimg5 from "../../assets/images/hero5.png";
   
 const index = () => {
-    return (
+    return ( 
       <>
         <section>
           <div className="container">
